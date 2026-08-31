@@ -160,45 +160,6 @@ Learned how to translate statistical findings into business insights rather than
 
 ---
 
-## 📁 Project Structure
-
-```text
-Task-04-Statistical-Analysis/
-│
-├── insurance.csv
-├── Task_04_Hypothesis_Testing.ipynb
-├── REPORT.md
-├── README.md
-│
-└── src/
-    ├── statistical_tests.py
-    ├── effect_sizes.py
-    └── confidence_intervals.py
-```
-
----
-
-## 📌 Statistical Significance Convention
-
-Throughout this analysis, a significance level of:
-
-```text
-α = 0.05
-```
-
-is used.
-
-The general decision rule is:
-
-```text
-If p-value < 0.05 → Reject H₀
-If p-value ≥ 0.05 → Fail to reject H₀
-```
-
-Statistical significance is interpreted together with **confidence intervals, effect sizes, assumptions, and business relevance**.
-
----
-
 ## 💼 Business Impact
 
 The analysis provides statistical evidence that can help a health insurance company understand factors associated with medical costs.
